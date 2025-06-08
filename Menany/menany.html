@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSacco | Home</title>
+    <link rel="icon" type="jpeg" href="pexels-photo-268533.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="menany.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>SmartSacco</h1>
+        <nav>
+            <a href="menany.html">Home</a>
+            <a href="book.html">Book</a>
+            <a href="routes.html">Routes</a>
+            <a href="services.html">Services</a>
+            <a href="impact.html">Our Impact</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Staff portal</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h2>Smart Travel. Smart Choice.</h2>
+        <p>Enjoy safe, reliable, and luxurious transport with SmartSacco. Your journey begins here.</p>
+        <button id="scrollToBooking">Book Your Journey</button>
+    </div>
+
+
+    <div class="about-wrapper">
+        <div class="who-we-are-container">
+    
+            <!-- Who We Are Text Section -->
+            <div class="who-we-are">
+                <h2>Who We Are</h2>
+                <p>We are a proudly Kenyan transport company offering reliable matatu travel and parcel delivery
+                    services across the country. Based in Mainstage, Meru, our goal is to connect communities through
+                    safe, affordable, and efficient transportation.</p>
+                <p>Whether you're commuting to work, traveling upcountry, or sending a package across town, we are
+                    committed to delivering trusted service with a personal touch.</p>
+            </div>
+    
+            <!-- Who We Are Image -->
+            <div class="who-we-are-image">
+                <img src="matatu.jpg" alt="Who We Are Image">
+            </div>
+    
+        </div>
+    
+        <!-- Our Mission Section -->
+        <div class="mission-container">
+           
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>To transform public transport in Kenya by providing:</p>
+                <ul>
+                    <li>Consistent, reliable matatu rides</li>
+                    <li>Fast and secure parcel delivery</li>
+                    <li>Customer-first service that respects your time and safety</li>
+                </ul>
+                <p>We aim to support everyday Kenyans while celebrating the vibrant spirit of matatu culture.</p>
+            </div>
+
+            <div class="mission-image">
+                <img src="matatu.jpg" alt="Our Mission Image">
+            </div>
+    
+
+        </div>
+    </div>
+    
+    
+
+
+
+    <div class="features">
+        <div class="feature-card">
+            <i class="fas fa-bus"></i>
+            <h3>Modern Fleet</h3>
+            <p>Ride in style with our clean, air-conditioned vehicles equipped with comfortable seats.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-clock"></i>
+            <h3>On-Time Departures</h3>
+            <p>We value your time. Our vehicles depart and arrive on schedule every time.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-wifi"></i>
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected on the go with complimentary high-speed Wi-Fi on board.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-headphones-alt"></i>
+            <h3>Entertainment</h3>
+            <p>Enjoy movies, music, and more with our personal entertainment systems.</p>
+        </div>
+    </div>
+
+
+    <!-- Our Services Section -->
+    <section class="services-section" id="servicesSection" >
+        <div class="services-wrapper">
+            <h2>Our Services</h2>
+
+            <div class="services-flex">
+                <!-- Transport Service -->
+                <div class="service-card transport">
+                    <h3>Passenger Transport</h3>
+                    <p>Enjoy fast, affordable, and safe matatu rides across Kenya. We connect towns, cities, and rural
+                        areas through reliable SACCO networks.</p>
+                </div>
+
+                <!-- Parcel Delivery Service -->
+                <div class="service-card parcel">
+                    <h3>Parcel Delivery</h3>
+                    <p>Send and receive packages quickly and securely. We offer same-day delivery options within towns
+                        and upcountry drop-offs at scheduled stops.</p>
+                </div>
+
+                <!-- Additional Service (Optional) -->
+                <div class="service-card custom">
+                    <h3>Private Hire</h3>
+                    <p>Hire a full matatu or van for private group travel, events, or corporate use. Our vehicles are
+                        well-maintained and come with experienced drivers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="our-numbers" class="our-numbers">
+        <h2>Our Impact</h2>
+        <div class="numbers-container">
+            <div class="number-box">
+                <h3 class="counter" data-target="2000">0</h3>
+                <p>Vehicles on the Road</p>
+            </div>
+            <div class="number-box">
+                <h3 class="counter" data-target="150000">0</h3>
+                <p>Trips Covered Annually</p>
+            </div>
+            <div class="number-box">
+                <h3 class="counter" data-target="500">0</h3>
+                <p>Daily Parcel Deliveries</p>
+            </div>
+            <div class="number-box">
+                <h3 class="counter" data-target="25">0</h3>
+                <p>Years of Experience</p>
+            </div>
+            <div class="number-box">
+                <h3 class="counter" data-target="50">0</h3>
+                <p>Locations Served Across Kenya</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <div class="booking-container" id="book">
+        <h2 style="text-align: center; margin-bottom: 30px;">Book Your Journey</h2>
+        <form class="booking-form" id="booking-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" id="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phoneNumber" required>
+                </div>
+                <div class="form-group">
+                    <label>Pickup Location</label>
+                    <select id="pickupLocation" required>
+                        <option value="">Select pickup point</option>
+                        <option>Meru</option>
+                        <option>Kiirua</option>
+                        <option>Timau</option>
+                        <option>Nanyuki</option>
+                        <option>Maua</option>
+                        <option>Nairobi</option>
+                        <option>Nakuru</option>
+                        <option>Eldoret</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Destination</label>
+                    <select id="destination" required>
+                        <option value="">Select destination</option>
+                        <option>Meru</option>
+                        <option>Kiirua</option>
+                        <option>Timau</option>
+                        <option>Nanyuki</option>
+                        <option>Maua</option>
+                        <option>Nairobi</option>
+                        <option>Nakuru</option>
+                        <option>Eldoret</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Travel Date</label>
+                    <input type="date" id="travelDate" required>
+                </div>
+            </div>
+            <button type="submit" id="onclick" class="book-btn">Confirm Booking</button>
+        </form>
+    </div>
+
+
+    <div class="routes-container" id="routes">
+        <div class="route-header">
+            <h2>Our Routes</h2>
+            <p>Daily departures to all destinations</p>
+        </div>
+        <div class="routes-grid">
+            <div class="route-card">
+                <h3>Meru - Kiirua - Timau - Nanyuki - Maua - Nairobi - Nakuru - Eldoret</h3>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section id="contactForm" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+          <!-- Contact Form -->
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="contactSubmitBtn">Send Message</button>
+          </form>
+      
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h3>Visit Us</h3>
+            <p><strong>Location:</strong> Mainstage, Meru, Kenya</p>
+            <p><strong>Phone:</strong> +254 700 000 000</p>
+            <p><strong>Email:</strong> info@smartsacco.co.ke</p>
+            <p><strong>Hours:</strong> Mon - Sat, 7:00am - 7:00pm</p>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>SmartSacco</p>
+                <p>📍 Mainstage, Meru, Kenya</p>
+                <p>📞 +254 700 000 000</p>
+                <p>✉️ info@smartsacco.co.ke</p>
+            </div>
+
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <p>
+                    <a href="#">Facebook</a> |
+                    <a href="#">Instagram</a> |
+                    <a href="#">Twitter</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 SmartSacco. All rights reserved. Designed by StarPro Tech</p>
+        </div>
+    </footer>
+
+
+    <script src="menany.js"></script>
+
+</body>
+
+</html>
